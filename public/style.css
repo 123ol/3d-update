@@ -1551,6 +1551,7 @@ h1,h2,h3,h4,h5,h6,p{
   width: 100%;
     min-height: 120vh;
     overflow: hidden;
+    background-color: #181717;
   background-image: url(./texture/galaxy.png);
   background-size: cover;
   z-index: 0;
