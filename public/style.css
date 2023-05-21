@@ -1551,7 +1551,6 @@ h1,h2,h3,h4,h5,h6,p{
   width: 100%;
     min-height: 120vh;
     overflow: hidden;
-    background-color: #181717;
   background-image: url(./texture/galaxy.png);
   background-size: cover;
   z-index: 0;
@@ -1619,13 +1618,10 @@ align-items: center;
   .earth {
     width: 150px;
     height: 150px;
-  
+  object-fit: contain;
     margin: auto;
     overflow: hidden;
-     -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
-    -khtml-border-radius: 50%;
     box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
     margin-bottom: 4rem;
   }
@@ -1634,17 +1630,14 @@ align-items: center;
     content: "";
   
     box-shadow: -20px -20px 50px 2px #000 inset;
-     -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
-    -khtml-border-radius: 50%;
   }
   
   .earth > div {
     width: 200%;
     height: 100%;
     animation: spin 30s linear alternate infinite;
-    background: url("./texture/earthmap1k.jpg");
+    background: url("./texture/earth.gif");
    
     background-size: cover;
   }
@@ -1660,10 +1653,7 @@ align-items: center;
   
     /* margin: auto; */
     overflow: hidden;
-     -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
-    -khtml-border-radius: 50%;
     box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
     /* margin-bottom: 4rem; */
   }
@@ -1672,17 +1662,14 @@ align-items: center;
     content: "";
   
     box-shadow: -20px -20px 50px 2px #000 inset;
-     -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
-    -khtml-border-radius: 50%;
   }
   
   .sun > div {
     width: 200%;
     height: 100%;
     animation: spin 30s linear alternate infinite;
-    background: url("./texture/sun.jpg");
+    background: url("./texture/suns.gif");
    
     background-size: cover;
   }
@@ -1698,10 +1685,7 @@ align-items: center;
   
     /* margin: auto; */
     overflow: hidden;
-     -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
-    -khtml-border-radius: 50%;
     box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
     /* margin-bottom: 4rem; */
   }
@@ -1710,17 +1694,14 @@ align-items: center;
     content: "";
   
     box-shadow: -20px -20px 50px 2px #000 inset;
-     -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
-    -khtml-border-radius: 50%;
   }
   
   .neptune > div {
     width: 200%;
     height: 100%;
     animation: spin 30s linear alternate infinite;
-    background: url("./texture/2k_neptune.jpg");
+    background: url("./texture/149q.gif");
    
     background-size: cover;
   }
@@ -1736,10 +1717,7 @@ align-items: center;
   
     /* margin: auto; */
     overflow: hidden;
-     -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
-    -khtml-border-radius: 50%;
     box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
     /* margin-bottom: 4rem; */
   }
@@ -1748,17 +1726,14 @@ align-items: center;
     content: "";
   
     box-shadow: -20px -20px 50px 2px #000 inset;
-     -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
-    -khtml-border-radius: 50%;
   }
   
   .ven > div {
     width: 200%;
     height: 100%;
     animation: spin 30s linear alternate infinite;
-    background: url("./texture/venusmapthumb.jpg");
+    background: url("./texture/39272898venus-planet-animation-5.gif");
    
     background-size: cover;
   }
@@ -1774,10 +1749,7 @@ align-items: center;
   
     /* margin: auto; */
     overflow: hidden;
-     -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
-    -khtml-border-radius: 50%;
     box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
     /* margin-bottom: 4rem; */
   }
@@ -1786,17 +1758,14 @@ align-items: center;
     content: "";
   
     box-shadow: -20px -20px 50px 2px #000 inset;
-     -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
-    -khtml-border-radius: 50%;
   }
   
   .merc > div {
     width: 200%;
     height: 100%;
     animation: spin 30s linear alternate infinite;
-    background: url("./texture/mercurymapthumb.jpg");
+    background: url("./texture/giphy-downsized-large.gif");
    
     background-size: cover;
   }
@@ -1812,10 +1781,7 @@ align-items: center;
   
     /* margin: auto; */
     overflow: hidden;
-     -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
-    -khtml-border-radius: 50%;
     box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
     /* margin-bottom: 4rem; */
   }
@@ -1824,17 +1790,14 @@ align-items: center;
     content: "";
   
     box-shadow: -20px -20px 50px 2px #000 inset;
-     -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
-    -khtml-border-radius: 50%;
   }
   
   .mars > div {
     width: 200%;
     height: 100%;
     animation: spin 30s linear alternate infinite;
-    background: url("./texture/8k_mars.jpg");
+    background: url("./texture/mars.gif");
    
     background-size: cover;
   }
@@ -1850,10 +1813,7 @@ align-items: center;
   
     /* margin: auto; */
     overflow: hidden;
-     -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
-    -khtml-border-radius: 50%;
     box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
     /* margin-bottom: 4rem; */
   }
@@ -1862,17 +1822,14 @@ align-items: center;
     content: "";
   
     box-shadow: -20px -20px 50px 2px #000 inset;
-     -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
-    -khtml-border-radius: 50%;
   }
   
   .jup > div {
     width: 200%;
     height: 100%;
     animation: spin 30s linear alternate infinite;
-    background: url("./texture/8k_jupiter.jpg");
+    background: url("./texture/giphy.gif");
    
     background-size: cover;
   }
@@ -1888,10 +1845,7 @@ align-items: center;
   
     /* margin: auto; */
     overflow: hidden;
-     -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
-    -khtml-border-radius: 50%;
     box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
     /* margin-bottom: 4rem; */
   }
@@ -1900,17 +1854,14 @@ align-items: center;
     content: "";
   
     box-shadow: -20px -20px 50px 2px #000 inset;
-     -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
-    -khtml-border-radius: 50%;
   }
   
   .ura > div {
     width: 200%;
     height: 100%;
     animation: spin 30s linear alternate infinite;
-    background: url("./texture/2k_uranus.jpg");
+    background: url("./texture/uranus-planet.gif");
    
     background-size: cover;
   }
@@ -1926,10 +1877,7 @@ align-items: center;
   
     /* margin: auto; */
     overflow: hidden;
-     -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
-    -khtml-border-radius: 50%;
     box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
     /* margin-bottom: 4rem; */
   }
@@ -1938,17 +1886,14 @@ align-items: center;
     content: "";
   
     box-shadow: -20px -20px 50px 2px #000 inset;
-     -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
-    -khtml-border-radius: 50%;
   }
   
   .sat > div {
     width: 200%;
     height: 100%;
     animation: spin 30s linear alternate infinite;
-    background: url("./texture/8k_saturn.jpg");
+    background: url("./texture/sat.gif");
    
     background-size: cover;
   }
