@@ -1615,7 +1615,7 @@ align-items: center;
     display:none;
   }
 
-  .earth {
+  .earth img{
     width: 150px;
     height: 150px;
   object-fit: contain;
@@ -1626,283 +1626,97 @@ align-items: center;
     margin-bottom: 4rem;
   }
   
-  .earth:after {
-    content: "";
-  
-    box-shadow: -20px -20px 50px 2px #000 inset;
-    border-radius: 50%;
-  }
-  
-  .earth > div {
-    width: 200%;
-    height: 100%;
-    animation: spin 30s linear alternate infinite;
-    background: url("./texture/earth.gif");
-   
-    background-size: cover;
-  }
-  @keyframes spin {
-    to {
-      transform: translateX(-50%);
-    }
-  }
+ 
 
-  .sun {
+  .sun img{
     width: 150px;
     height: 150px;
-  
-    /* margin: auto; */
+  object-fit: contain;
+    margin: auto;
     overflow: hidden;
     border-radius: 50%;
     box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
-    /* margin-bottom: 4rem; */
+    margin-bottom: 4rem;
   }
   
-  .sun:after {
-    content: "";
   
-    box-shadow: -20px -20px 50px 2px #000 inset;
-    border-radius: 50%;
-  }
-  
-  .sun > div {
-    width: 200%;
-    height: 100%;
-    animation: spin 30s linear alternate infinite;
-    background: url("./texture/suns.gif");
-   
-    background-size: cover;
-  }
-  @keyframes spin {
-    to {
-      transform: translateX(-50%);
-    }
-  }
 
-  .neptune {
+
+  .neptune img{
     width: 150px;
     height: 150px;
-  
-    /* margin: auto; */
+  object-fit: contain;
+    margin: auto;
     overflow: hidden;
     border-radius: 50%;
     box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
-    /* margin-bottom: 4rem; */
-  }
-  
-  .neptune:after {
-    content: "";
-  
-    box-shadow: -20px -20px 50px 2px #000 inset;
-    border-radius: 50%;
-  }
-  
-  .neptune > div {
-    width: 200%;
-    height: 100%;
-    animation: spin 30s linear alternate infinite;
-    background: url("./texture/149q.gif");
-   
-    background-size: cover;
-  }
-  @keyframes spin {
-    to {
-      transform: translateX(-50%);
-    }
+    margin-bottom: 4rem;
   }
 
-  .ven {
+  .ven img{
     width: 150px;
     height: 150px;
-  
-    /* margin: auto; */
+  object-fit: contain;
+    margin: auto;
     overflow: hidden;
     border-radius: 50%;
     box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
-    /* margin-bottom: 4rem; */
-  }
-  
-  .ven:after {
-    content: "";
-  
-    box-shadow: -20px -20px 50px 2px #000 inset;
-    border-radius: 50%;
-  }
-  
-  .ven > div {
-    width: 200%;
-    height: 100%;
-    animation: spin 30s linear alternate infinite;
-    background: url("./texture/39272898venus-planet-animation-5.gif");
-   
-    background-size: cover;
-  }
-  @keyframes spin {
-    to {
-      transform: translateX(-50%);
-    }
+    margin-bottom: 4rem;
   }
 
-  .merc {
+  .merc img{
     width: 150px;
     height: 150px;
-  
-    /* margin: auto; */
+  object-fit: contain;
+    margin: auto;
     overflow: hidden;
     border-radius: 50%;
     box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
-    /* margin-bottom: 4rem; */
-  }
-  
-  .merc:after {
-    content: "";
-  
-    box-shadow: -20px -20px 50px 2px #000 inset;
-    border-radius: 50%;
-  }
-  
-  .merc > div {
-    width: 200%;
-    height: 100%;
-    animation: spin 30s linear alternate infinite;
-    background: url("./texture/giphy-downsized-large.gif");
-   
-    background-size: cover;
-  }
-  @keyframes spin {
-    to {
-      transform: translateX(-50%);
-    }
+    margin-bottom: 4rem;
   }
 
-  .mars {
+  .mars img{
     width: 150px;
     height: 150px;
-  
-    /* margin: auto; */
+  object-fit: contain;
+    margin: auto;
     overflow: hidden;
     border-radius: 50%;
     box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
-    /* margin-bottom: 4rem; */
-  }
-  
-  .mars:after {
-    content: "";
-  
-    box-shadow: -20px -20px 50px 2px #000 inset;
-    border-radius: 50%;
-  }
-  
-  .mars > div {
-    width: 200%;
-    height: 100%;
-    animation: spin 30s linear alternate infinite;
-    background: url("./texture/mars.gif");
-   
-    background-size: cover;
-  }
-  @keyframes spin {
-    to {
-      transform: translateX(-50%);
-    }
+    margin-bottom: 4rem;
   }
 
-  .jup {
+  .jup img{
     width: 150px;
     height: 150px;
-  
-    /* margin: auto; */
+  object-fit: contain;
+    margin: auto;
     overflow: hidden;
     border-radius: 50%;
     box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
-    /* margin-bottom: 4rem; */
+    margin-bottom: 4rem;
   }
-  
-  .jup:after {
-    content: "";
-  
-    box-shadow: -20px -20px 50px 2px #000 inset;
-    border-radius: 50%;
-  }
-  
-  .jup > div {
-    width: 200%;
-    height: 100%;
-    animation: spin 30s linear alternate infinite;
-    background: url("./texture/giphy.gif");
-   
-    background-size: cover;
-  }
-  @keyframes spin {
-    to {
-      transform: translateX(-50%);
-    }
-  }
-
-  .ura {
+  .ura img{
     width: 150px;
     height: 150px;
-  
-    /* margin: auto; */
+  object-fit: contain;
+    margin: auto;
     overflow: hidden;
     border-radius: 50%;
     box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
-    /* margin-bottom: 4rem; */
-  }
-  
-  .ura:after {
-    content: "";
-  
-    box-shadow: -20px -20px 50px 2px #000 inset;
-    border-radius: 50%;
-  }
-  
-  .ura > div {
-    width: 200%;
-    height: 100%;
-    animation: spin 30s linear alternate infinite;
-    background: url("./texture/uranus-planet.gif");
-   
-    background-size: cover;
-  }
-  @keyframes spin {
-    to {
-      transform: translateX(-50%);
-    }
+    margin-bottom: 4rem;
   }
 
-  .sat {
+  .sat img{
     width: 150px;
     height: 150px;
-  
-    /* margin: auto; */
+  object-fit: contain;
+    margin: auto;
     overflow: hidden;
     border-radius: 50%;
     box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
-    /* margin-bottom: 4rem; */
+    margin-bottom: 4rem;
   }
-  
-  .sat:after {
-    content: "";
-  
-    box-shadow: -20px -20px 50px 2px #000 inset;
-    border-radius: 50%;
-  }
-  
-  .sat > div {
-    width: 200%;
-    height: 100%;
-    animation: spin 30s linear alternate infinite;
-    background: url("./texture/sat.gif");
-   
-    background-size: cover;
-  }
-  @keyframes spin {
-    to {
-      transform: translateX(-50%);
-    }
-  }
-
 
 
 
